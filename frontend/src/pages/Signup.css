@@ -1,0 +1,30 @@
+.signup__image--container {
+  background-image: url("https://d1csarkz8obe9u.cloudfront.net/posterpreviews/fast-food-design-template-a97c9a10b5d142e8feb04d61338f3f43_screen.jpg?ts=1637017965");
+  height: 100vh;
+  background-size: cover;
+}
+.signup_form--container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height:100vh;
+    justify-content: center;
+}
+.login_form--container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height:100vh;
+    justify-content: center;
+}
+.login__image--container {
+    background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/c5efb8125141031.6112e18a95423.jpg");
+    height: 100vh;
+    background-size: cover;
+}
+@media screen and (max-width: 756px) {
+    .login__image--container,
+    .signup__image--container {
+        display: none;
+    }
+}
